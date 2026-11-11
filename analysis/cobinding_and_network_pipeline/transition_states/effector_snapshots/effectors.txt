@@ -1,0 +1,3 @@
+ROCK1	/home/hutchcha/rhoa_mut_analysis/effector_refs/1S1C.pdb	A
+PKN	/home/hutchcha/rhoa_mut_analysis/effector_refs/1CXZ.pdb	A
+anillin	/home/hutchcha/rhoa_mut_analysis/effector_refs/4XOI.pdb	A

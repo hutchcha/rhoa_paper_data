@@ -1,0 +1,12 @@
+name: rhoa_analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - mdanalysis>=2.7
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - tqdm
+  - pip

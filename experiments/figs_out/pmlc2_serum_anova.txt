@@ -1,0 +1,4 @@
+File: pmlc2_serum.csv
+One-way ANOVA (scipy.stats.f_oneway)
+F = 9.55543
+p = 1.9198e-07

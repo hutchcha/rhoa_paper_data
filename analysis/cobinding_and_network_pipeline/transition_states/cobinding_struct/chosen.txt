@@ -1,0 +1,6 @@
+frame=9750
+lipid_resid=323
+lipid_type=POPS
+npatch=(5, 6, 7)
+acid=(78,)
+pdb=/home/hutchcha/rhoa_mut_analysis/rhoa_full_sampled_trajs/transition_states/cobinding_struct/GTP-2_cobind_f9750_lip323.pdb

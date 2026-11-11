@@ -1,0 +1,4 @@
+File: pmlc2_starve.csv
+One-way ANOVA (scipy.stats.f_oneway)
+F = 17.514
+p = 1.82442e-13

@@ -1,0 +1,4 @@
+File: phalloidin_starve.csv
+One-way ANOVA (scipy.stats.f_oneway)
+F = 10.9102
+p = 1.72223e-08

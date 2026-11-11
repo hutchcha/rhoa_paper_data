@@ -1,0 +1,23 @@
+# Conda environment for the dynetan MI generalized-correlation network analysis.
+# NOTE: dynetan's generalized correlation (k-NN mutual information) is CPU/numba-PARALLEL —
+# it scales with the number of CPU cores, NOT the GPU. Run it on the many-core machine.
+# Create with:   conda env create -f environment_dynetan.yml
+#          then:  conda activate rhoa_dynetan
+name: rhoa_dynetan
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=2.0
+  - scipy
+  - pandas
+  - matplotlib
+  - networkx>=3.2
+  - mdanalysis>=2.7
+  - numba>=0.60
+  - pymol-open-source   # for render_dynetan.py (optional; drop this line if rendering elsewhere)
+  - pip
+  - pip:
+      - dynetan==2.7.0
+# Verified working combo (analysis workstation): dynetan 2.7.0, MDAnalysis 2.10.0,
+# networkx 3.6.1, numba 0.67.0, numpy 2.4.6, scipy 1.17.1, pandas 3.0.3.

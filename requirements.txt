@@ -1,0 +1,28 @@
+# Python dependencies for the RhoA MD analysis / figure scripts.
+# Analyses were run under a conda environment (Python 3.10+). Install with:
+#   pip install -r requirements.txt
+# or create a conda env with the equivalent packages.
+
+# Core trajectory analysis & numerics
+MDAnalysis>=2.4
+numpy>=1.23
+scipy>=1.9
+pandas>=1.5
+tqdm>=4.64
+
+# Membrane / lipid analysis
+lipyphilic>=0.10      # area-per-lipid (Voronoi tessellation), SI Fig. S1
+freud-analysis>=2.12  # Voronoi / neighbor utilities
+
+# Dynamical network analysis (Fig. 7)
+dynetan>=1.4          # generalized-correlation network (Melo et al. 2020)
+networkx>=2.8         # path length / betweenness centrality on the MI graph
+
+# Plotting
+matplotlib>=3.6
+
+# Notes:
+#  - Structure rendering used PyMOL (Schrodinger) and VMD; those are not pip packages.
+#  - Some analyses also used GROMACS command-line tools.
+#  - Cell-assay statistics (Fig. 5 / SI Fig. S3) used GraphPad Prism; the Python
+#    quantification script in experiments/ uses only numpy/pandas/scipy/matplotlib.

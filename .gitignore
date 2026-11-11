@@ -1,0 +1,25 @@
+# Large raw MD data must NOT be committed (see DATA_AVAILABILITY.md)
+*.dcd
+*.xtc
+*.trr
+*.h5
+*.dcd.*
+# Trajectory/offset caches
+*_offsets.npz
+*.xtc_offsets.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+.vscode/
+.idea/
+
+# Rendered figure scratch (keep final PNG/SVG/PDF that are committed explicitly)
+*.tmp
